@@ -1,0 +1,49 @@
+*{
+ background-color: black;   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.calculator {
+    text-align: center;
+}
+
+#display {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    background-color: rgb(255, 208, 0);
+    color: black;
+
+}
+
+.buttons button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(49, 46, 46);
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#clear {
+ 
+ color:blue;
+}
+#equal{
+    background-color: blue;
+    color: white;
+}
